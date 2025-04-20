@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  video-stream-service:
+    container_name: video-stream-service
+    build: /var/jenkins_home/workspace/video-stream-ci_main
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - .:/code
+    restart: unless-stopped
+    networks:
+      - jenkins-net
