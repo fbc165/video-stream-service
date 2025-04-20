@@ -13,3 +13,7 @@ services:
     restart: unless-stopped
     networks:
       - jenkins-net
+
+networks:
+  jenkins-net:
+    external: true
