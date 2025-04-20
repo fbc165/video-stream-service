@@ -1,0 +1,25 @@
+{
+  "name": "video-stream-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbc165/video-stream-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbc165/video-stream-service/issues"
+  },
+  "homepage": "https://github.com/fbc165/video-stream-service#readme",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
