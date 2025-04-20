@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const AWS = require('aws-sdk');
 const app = express();
-const port = 8000;
+const port = 3000;
 
 const s3 = new AWS.S3({
   endpoint: new AWS.Endpoint(process.env.DO_SPACES_ENDPOINT),
