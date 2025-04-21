@@ -18,6 +18,7 @@
   "homepage": "https://github.com/fbc165/video-stream-service#readme",
   "description": "",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.787.0",
     "aws-sdk": "^2.1692.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0"
